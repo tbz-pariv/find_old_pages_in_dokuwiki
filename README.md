@@ -44,3 +44,12 @@ optional arguments:
 The output is pure text with one line per page and an URL.
 
 Since modern terminals/IDEs let you click on the URL you have an ready to use list for your Subbotnik.
+
+## Install
+
+Directly via github. Not on pypi up to now.
+
+```
+pip install -e git+https://github.com/tbz-pariv/find_old_pages_in_dokuwiki.git#egg=find_old_pages_in_dokuwiki
+```
+
