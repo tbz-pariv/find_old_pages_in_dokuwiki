@@ -53,3 +53,16 @@ Directly via github. Not on pypi up to now.
 pip install -e git+https://github.com/tbz-pariv/find_old_pages_in_dokuwiki.git#egg=find_old_pages_in_dokuwiki
 ```
 
+## Example
+Find pages which are more then 3 years old and which are mostly edited by "myuser"
+
+```
+===> find_old_pages_in_dokuwiki /srv/www/vhosts/www.tbz-pariv.lan/dokuwiki/data/meta/ myuser --min_age=36 --percent=80 --output_template='https://foo.bar/index.html/doku.php?id={}'
+
+myuser 2010-02-25 10:19:20 https://foo.bar/index.html/doku.php?id=heal_the_world
+myuser 2012-07-19 09:48:00 https://foo.bar/index.html/doku.php?id=solve_theory_of_everything
+myuser 2012-11-11 12:12:00 https://foo.bar/index.html/doku.php?id=other_dated_page
+...
+```
+
+
