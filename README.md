@@ -41,6 +41,6 @@ optional arguments:
 
 ## Output
 
-The output is pure text with an URL.
+The output is pure text with one line per page and an URL.
 
 Since modern terminals/IDEs let you click on the URL you have an ready to use list for your Subbotnik.
