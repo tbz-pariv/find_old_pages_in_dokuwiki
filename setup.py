@@ -6,7 +6,7 @@ setuptools.setup(
     name='find_old_pages_in_dokuwiki',
     version='2019.1',
     license='Apache Software License 2.0',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     packages=setuptools.find_packages(),
     zip_safe = False,
     install_requires=[
